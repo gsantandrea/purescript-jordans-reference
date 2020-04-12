@@ -30,7 +30,7 @@ runAff_ :: forall a.
 ```
 Breaking this down, `runAff_` takes two arguments (explained in reverse):
 - an `Aff` computation to run
-- a function for handling a possible asynchronous `Error` if the computation fails or a the computation's output, `a`, if it succeeds.
+- a function for handling a possible asynchronous `Error` if the computation fails or the computation's output, `a`, if it succeeds.
 
 Using it should look something like:
 ```purescript
